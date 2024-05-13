@@ -1,0 +1,136 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+    :root {
+      --border: 214.3 31.8% 91.4%;
+      --input: 214.3 31.8% 91.4%;
+      --ring: 222.2 84% 4.9%;
+
+      --radius: 0.5rem;
+
+      --bg-default: #fff;
+      --bg-base: #fcfcfc;
+      --bg-bg-subtle: #f8f8f8;
+      --bg-bg: #f3f3f3;
+      --bg-bg-hover: #ededed;
+      --bg-bg-active: #e8e8e8;
+      --fg-line: #e2e2e2;
+      --fg-border: #dbdbdb;
+      --fg-border-hover: #c7c7c7;
+      --fg-solid: #8f8f8f;
+      --fg-solid-hover: #858585;
+      --fg-text: #6f6f6f;
+      --fg-text-contrast: #171717;
+      --fg-default: #000;
+    
+    
+      --primary-base: #fefdfc;
+      --primary-bg-subtle: #fcf9f6;
+      --primary-bg: #f8f1ea;
+      --primary-bg-hover: #f4e9dd;
+      --primary-bg-active: #efddcc;
+      --primary-line: #e8cdb5;
+      --primary-border: #ddb896;
+      --primary-border-hover: #d09e72;
+      --primary-solid: #ad7f58;
+      --primary-solid-hover: #a07653;
+      --primary-text: #886349;
+      --primary-text-contrast: #3f2c22;
+
+    
+    
+
+    }
+
+    .dark {
+      color-scheme:dark;
+
+      --border: 217.2 32.6% 17.5%;
+      --input: 217.2 32.6% 17.5%;
+      --ring: 212.7 26.8% 83.9%;
+      
+      --bg-default: #000;
+      --bg-base: #161616;
+      --bg-bg-subtle: #1c1c1c;
+      --bg-bg: #232323;
+      --bg-bg-hover: #282828;
+      --bg-bg-active: #2e2e2e;
+      --fg-line: #343434;
+      --fg-border: #3e3e3e;
+      --fg-border-hover: #505050;
+      --fg-solid: #707070;
+      --fg-solid-hover: #7e7e7e;
+      --fg-text: #a0a0a0;
+      --fg-text-contrast: #ededed;
+      --fg-default: #fff;
+    
+    
+      --primary-base: #191513;
+      --primary-bg-subtle: #221813;
+      --primary-bg: #2e201a;
+      --primary-bg-hover: #36261e;
+      --primary-bg-active: #3e2c22;
+      --primary-line: #493528;
+      --primary-border: #5c4332;
+      --primary-border-hover: #775940;
+      --primary-solid: #ad7f58;
+      --primary-solid-hover: #bd8b60;
+      --primary-text: #dba16e;
+      --primary-text-contrast: #faf0e5;
+     
+    
+
+  
+    }
+  
+
+
+  /* my styles */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  font-feature-settings:
+    'case' 1,
+    'rlig' 1,
+    'calt' 0;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 100%;
+  min-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  background-color: var(--bg-base);
+  
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.height-screen-helper {
+  min-height: calc(100vh - 80px);
+}
+

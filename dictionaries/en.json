@@ -1,0 +1,136 @@
+{
+    "navbar": {
+        "links": [
+          { "name": "Feature", "href": "#features"  },
+          { "name": "Highlights", "href": "#highlights"  },
+          { "name": "About", "href": "#about"  },
+          { "name": "Pricing", "href": "#pricing"  }
+        ],
+        "buttonText": "Contact Us",
+        "buttonTextTwo": "Call Us 1900 123 654",
+        "logoText": "Justice Hub"
+      },
+      "heroSection": {
+        "heading": "Devoted to justice",
+        "subheading": "Your Trusted Source for Legal Excellence, Advocating for Justice, Integrity, and Your Rights",
+        "buttonText": "CONTACT NOW",
+        "buttonTextTwo": "PURCHASE"
+      },
+      "featureOne": {
+        "heading": "Exclusive Legal Insights and Resources",
+        "buttonText": "CONTACT NOW",
+        "subText": "Unrivalled Legal Resources for informed advocacy. With regards to your pursuit of justice."
+      },
+      "hilights": {
+        "mainHeading": "Legal Victories Spotligh",
+        "mainText": "Highlighting landmark cases and notable wins: celebrating successes in the pursuit of justice.",
+        "buttonText":"Browse All",
+            "cardInfo": [
+              {
+                "image":"/assets/images/hilight-card-one.webp",
+                "title": "Litigation",
+                "description": "Strategic representation in court. Skilled advocacy to protect your rights and interests. Experience, dedication, and diligence in every case for optimal outcomes and justice served."
+              },
+              {
+                "image":"/assets/images/hilight-card-two.webp",
+                "title": "Counsel",
+                "description": "Expert guidance tailored to your legal needs. Trusted advisors providing clarity, direction, and support. Empowering you with knowledge and advocacy to navigate complex legal matters effectively."
+                
+              },
+              {
+                "image":"/assets/images/hilight-card-three.webp",
+                "title": "Justice",
+                "description": "Dedicated pursuit of fairness and equity. Tireless advocacy for your rights and causes. Commitment to upholding the law and ensuring accountability for all. Your partner in the quest for justice."
+
+              }
+            ]
+
+
+      },
+      "links": {
+        "cardInfo":[
+          {
+            "image":"/assets/images/link-one.webp",
+            "title":"Domestic violence",
+            "description":"Know your rights. we will take care about the rest."
+            
+          },
+          {
+            "image":"/assets/images/link-two.webp",
+            "title":"Securities law",
+            "description":"Navigating complex securities for financial fecurity"
+            
+          },
+          {
+            "image":"/assets/images/link-three.webp",
+            "title":"Liberty Defended",
+            "description":"Protecting your rights with strategic solutions "
+            
+          },
+          {
+            "image":"/assets/images/link-four.webp",
+            "title":"Federal crimes",
+            "description":"Defending your rights against federal charges"
+            
+          }
+        ]
+      },
+      "pricing": {
+        "mainHeading": "Transparent Legal Fee Structure",
+        "mainText": "Upfront pricing tailored to your needs. No surprises, just reliable legal support",
+            "cardInfo": [
+              {
+                "title": "Consultation",
+                "price": "$99",
+                "pointOne":"Basic Legal Consultation",
+                "pointTwo":"Document Review",
+                "pointThree":"Email Support",
+                "pointFour":"Personal Legal Advice",
+                "cta":"Read More"
+
+              },
+              {
+                "title": "Contracts law",
+                "price": "$310",
+                "pointOne":"Contract Drafting",
+                "pointTwo":"Negotiation Assistance",
+                "pointThree":"Legal Compliance",
+                "pointFour":"24/7 Dedicated Support",
+                "cta":"Read More"
+
+              },
+              {
+                "title": "Immigration law",
+                "price": "$230",
+                "pointOne":"Application Assistance",
+                "pointTwo":"Green Card",
+                "pointThree":"Citizenship Application",
+                "pointFour":"Document Review",
+                "cta":"Read More"
+
+              }
+            ]
+
+
+      },
+      "footer": {
+
+        "links": [
+          { "name": "Feature", "href": "#features"  },
+          { "name": "Highlights", "href": "#highlights"  },
+          { "name": "About", "href": "#about"  }
+        ],
+
+
+        "4": "Privacy Policy",
+        "5": "Terms of Service",
+        "6": "Cookies Settings"
+        
+
+        
+
+
+      }
+
+
+}
